@@ -1,5 +1,6 @@
 
 body {
+  background-image: url(wavegrid.png);
   font-family: Georgia, Times, serif;
   background: #F1F1F1;
   color: #444;
@@ -69,6 +70,7 @@ ul {
   border-top: solid 1px #CACACA;
   border-bottom: solid 1px #CACACA;
   background: #FFF;
+  background: rgba(255, 255, 255, 0.5);
   list-style-type:none;
   line-height: 1.6em;
   padding: 1em 0;
