@@ -1,8 +1,8 @@
 
 body {
-  background-image: url(wavegrid.png);
+  background-image: url('wavegrid.png');
+  background-color: #F1F1F1;
   font-family: Georgia, Times, serif;
-  background: #F1F1F1;
   color: #444;
   margin: 0;
   padding: 0;
