@@ -1,0 +1,148 @@
+
+body {
+  background-color: white;
+  color: #555;
+  font-family: "Helvetica Neue", Helvetica, Verdana, sans-serif;
+  line-height: 1.57;
+  margin: 0;
+  padding: 0 5%;
+}
+
+a {
+  color: #d81b60;
+  /* light: ff5c8d, dark: a00037 */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+article a:visited {
+  color: #a00037;
+}
+
+.message {
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 720px;
+  margin: auto;
+}
+
+.container > header {
+  padding: 20px 0;
+  text-align: center;
+}
+
+h1, p.title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.75em;
+  font-weight: 300;
+  margin: 0 auto 0 auto;
+}
+
+h1 a, p.title a {
+  color: #555;
+}
+
+h1 a:hover, p.title a:hover {
+  color: #d81b60;
+  text-decoration: none;
+}
+
+.subtitle {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9em;
+  font-weight: 300;
+  margin: 12px 0 0 0;
+}
+
+ul.links {
+  margin: 8px 0 16px 0;
+  padding: 0;
+}
+
+ul.links li {
+  display: inline-block;
+  font-size: 1.1em;
+  margin: 0 2px;
+}
+
+ul.links a {
+  color: #555;
+}
+
+ul.links a:hover {
+  color: #d81b60;
+}
+
+main {
+  flex-grow: 1;
+  margin-top: 40px;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  font-weight: 300;
+  margin: 16px 0;
+}
+
+.metadata {
+  font-size: 1.1em;
+  font-weight: 300;
+  margin: 12px 0;
+}
+
+article {
+  margin: 32px 0 0 0;
+}
+
+article:first-child {
+  margin-top: 0;
+}
+
+/* Post page */
+article h1 {
+  font-size: 2em;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3em;
+  font-weight: 300;
+  margin: 8px 0;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.1em;
+  font-weight: 300;
+  justify-content: space-between;
+  margin: 40px 0 16px 0;
+}
+
+.pagination-newer {
+  text-align: left;
+}
+
+.pagination {
+  text-align: center;
+}
+
+.pagination-older {
+  text-align: right;
+}
+
+.container > footer {
+  font-size: 0.75em;
+  font-weight: 300;
+  margin: 16px 0 0 0;
+  padding: 0 0 16px 0;
+  text-align: center;
+}

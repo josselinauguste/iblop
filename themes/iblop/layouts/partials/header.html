@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  {{ with .Title | default .Site.Title }}
+  <title>{{ . }}</title>
+  <meta property="og:title" content="{{ . }}">
+  <meta name="twitter:title" content="{{ . }}">
+  {{ end }}
+  {{ with .Description | default .Site.Params.description}}
+  <meta name="description" content="{{ . }}">
+  <meta property="og:description" content="{{ . }}">
+  <meta name="twitter:description" content="{{ . | truncate 200 }}">
+  {{ end }}
+  <meta name="author" content="{{ .Site.Params.author }}">
+  <meta property="og:site_name" content="{{ .Site.Title }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta name="twitter:card" content="summary">
+  {{ with .Site.Params.twitter }}
+  <meta name="twitter:site" content="@{{ . }}">
+  <meta name="twitter:creator" content="@{{ . }}">
+  {{ end }}
+  {{ if .IsPage }}
+  <meta property="og:type" content="article">
+  {{ else }}
+  <meta property="og:type" content="website">
+  {{ end }}
+  {{ .Hugo.Generator -}}
+  {{ if eq .URL "/" }}
+  <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}">
+  {{ end }}
+  <link rel="canonical" href="http://www.iblop.net">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="{{ .Site.BaseURL }}css/screen.css" media="screen" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      {{ if .IsPage }} <p class="title"> {{ else }} <h1> {{ end }}
+        <a href="{{ .Site.BaseURL }}">
+          {{ .Site.Params.PageTitle }}
+        </a>
+      {{ if .IsPage }} </p> {{ else }} </h1> {{ end }}
+      {{ with .Site.Params.subtitle | safeHTML }}
+      <p class="subtitle">
+        {{ . }}
+      </p>
+      {{ end }}
+      {{ partial "links" . }}
+    </header>
+    <main>

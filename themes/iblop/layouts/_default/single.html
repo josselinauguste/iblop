@@ -1,0 +1,34 @@
+{{ partial "header.html" . }}
+<article>
+  <header>
+    <h1>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </h1>
+    <p class="metadata">
+      Posted on 
+      {{ with .Date }}
+      <time datetime="{{ .Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+        {{ .Format "Jan 2, 2006" }}
+      </time>
+      {{ end }}
+    </p>
+  </header>
+  <section> 
+    {{ .Content }}
+  </section>
+  <footer>
+    <nav>
+      <span class="pagination-newer">
+        {{ if .Prev }}
+        <a href="{{ .Prev.Permalink }}">Newer</a>
+        {{ end }}
+      </span>
+      <span class="pagination-older">
+        {{ if .Next }}
+        <a href="{{ .Next.Permalink }}">Older</a>
+        {{ end }}
+      </span>
+    </nav>
+  </footer>
+</article>
+{{ partial "footer.html" . }}
