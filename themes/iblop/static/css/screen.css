@@ -5,7 +5,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Verdana, sans-serif;
   line-height: 1.57;
   margin: 0;
-  padding: 0 5%;
+  padding: 0;
 }
 
 a {
@@ -30,8 +30,10 @@ article a:visited {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  max-width: 720px;
   margin: auto;
+  max-width: 700px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .container > header {
@@ -107,17 +109,6 @@ article:first-child {
   margin-top: 0;
 }
 
-/* Post page */
-article h1 {
-  font-size: 2em;
-}
-
-h3 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.3em;
-  font-weight: 300;
-  margin: 8px 0;
-}
 nav {
   display: flex;
   flex-direction: row;
@@ -145,4 +136,20 @@ nav {
   margin: 16px 0 0 0;
   padding: 0 0 16px 0;
   text-align: center;
+}
+
+/* Post page */
+article h1 {
+  font-size: 2em;
+}
+
+article section > p {
+  font-size: 1.1em;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3em;
+  font-weight: 300;
+  margin: 8px 0;
 }
