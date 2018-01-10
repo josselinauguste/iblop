@@ -4,7 +4,9 @@
     <a href="{{ .Prev.URL }}">Newer</a>
     {{ end }}
   </span>
+  {{ if gt (.TotalPages) 1 }}
   <span class="pagination">Page {{ .PageNumber }} of {{ .TotalPages }}</span>
+  {{ end }}
   <span class="pagination-older">
     {{ if .HasNext }}
     <a href="{{ .Next.URL }}">Older</a>
