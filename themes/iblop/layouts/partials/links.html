@@ -13,4 +13,11 @@
     </a>
   </li>
   {{ end }}
+  {{ with .RSSLink }} 
+  <li>
+    <a href="{{ . }}" target="_blank">
+      <i class="fa fa-rss"></i>
+    </a>
+  </li>
+  {{ end }}
 </ul>
