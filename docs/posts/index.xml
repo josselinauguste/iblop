@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; now and then | &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <lastBuildDate>Wed, 10 Jan 2018 21:08:07 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jan 2018 00:17:10 +0100</lastBuildDate>
     
 	<atom:link href="http://iblop.net/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Interesting Stuff #2</title>
+      <link>http://iblop.net/posts/interesting-stuff-2/</link>
+      <pubDate>Thu, 18 Jan 2018 00:17:10 +0100</pubDate>
+      
+      <guid>http://iblop.net/posts/interesting-stuff-2/</guid>
+      <description>Designing with Capabilities - Scott Wlaschin A talk by Scott Wlaschin at DDD Europe, about designing systems by exposing capabilities restricting the consumer (a user or a piece of code) to only be able to consume the features available to him, instead of testing everywhere if the code has the permission to be executed. This looks like REST hypermedia applied to domain modelling, which seems appropriate to increase the affordance of the code we produce and consume.</description>
+    </item>
     
     <item>
       <title>Interesting Stuff #1</title>
