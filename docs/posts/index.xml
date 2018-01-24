@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; now and then | &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <lastBuildDate>Thu, 18 Jan 2018 00:17:10 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jan 2018 19:02:59 +0100</lastBuildDate>
     
 	<atom:link href="http://iblop.net/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Interesting Stuff #3</title>
+      <link>http://iblop.net/posts/interesting-stuff-3/</link>
+      <pubDate>Wed, 24 Jan 2018 19:02:59 +0100</pubDate>
+      
+      <guid>http://iblop.net/posts/interesting-stuff-3/</guid>
+      <description>Haxl: A Big Hammer for Concurrency by Simon Marlow Haxl is an Haskell library which completely abstracts concurrency, allowing to use it almost transparently when possible, and as easily as by nesting our code in a do block. This gives us concurrency, caching, testability (or at least snapshot testing) and reproductibility for debugging for almost free.
+This looks like an interesting paradigm, at least conceptually, because, in the same way memory management was automated 20 years ago to drastically facilitate our daily job, it is still sad that we have to manually manage such a complex topic.</description>
+    </item>
     
     <item>
       <title>Interesting Stuff #2</title>
