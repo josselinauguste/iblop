@@ -2,51 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Josselin Auguste, software gardener</title>
-    <link>http://iblop.net/posts/</link>
+    <link>https://www.iblop.net/posts/</link>
     <description>Recent content in Posts on Josselin Auguste, software gardener</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; now and then | &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
     <lastBuildDate>Fri, 09 Feb 2018 22:15:50 +0100</lastBuildDate>
     
-	<atom:link href="http://iblop.net/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.iblop.net/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Reason: a great language for the future</title>
-      <link>http://iblop.net/posts/reason-a-great-language-for-the-future/</link>
+      <link>https://www.iblop.net/posts/reason-a-great-language-for-the-future/</link>
       <pubDate>Fri, 09 Feb 2018 22:15:50 +0100</pubDate>
       
-      <guid>http://iblop.net/posts/reason-a-great-language-for-the-future/</guid>
+      <guid>https://www.iblop.net/posts/reason-a-great-language-for-the-future/</guid>
       <description>Reason (a.k.a ReasonML) is an almost new programming language developed by Facebook, compiling to Javascript. Thanks to the ReasonReact library, its aim is obviously to become the next de facto choice for building React applications (and indeed, it makes great sense).
 The language is based on OCaml, and so profits from all the nice OCaml features: static typing, great module system, immutability by default, nice compact syntax. These reinforce its strengths for React development, for which functional paradigms are already a great fit.</description>
     </item>
     
     <item>
       <title>Interesting Stuff #3</title>
-      <link>http://iblop.net/posts/interesting-stuff-3/</link>
+      <link>https://www.iblop.net/posts/interesting-stuff-3/</link>
       <pubDate>Wed, 24 Jan 2018 19:02:59 +0100</pubDate>
       
-      <guid>http://iblop.net/posts/interesting-stuff-3/</guid>
+      <guid>https://www.iblop.net/posts/interesting-stuff-3/</guid>
       <description>Haxl: A Big Hammer for Concurrency by Simon Marlow Haxl is an Haskell library which completely abstracts concurrency, allowing to use it almost transparently when possible, and as easily as by nesting our code in a do block. This gives us concurrency, caching, testability (or at least snapshot testing) and reproductibility for debugging for almost free.
 This looks like an interesting paradigm, at least conceptually, because, in the same way memory management was automated 20 years ago to drastically facilitate our daily job, it is still sad that we have to manually manage such a complex topic.</description>
     </item>
     
     <item>
       <title>Interesting Stuff #2</title>
-      <link>http://iblop.net/posts/interesting-stuff-2/</link>
+      <link>https://www.iblop.net/posts/interesting-stuff-2/</link>
       <pubDate>Thu, 18 Jan 2018 00:17:10 +0100</pubDate>
       
-      <guid>http://iblop.net/posts/interesting-stuff-2/</guid>
+      <guid>https://www.iblop.net/posts/interesting-stuff-2/</guid>
       <description>Designing with Capabilities - Scott Wlaschin A talk by Scott Wlaschin at DDD Europe, about designing systems by exposing capabilities restricting the consumer (a user or a piece of code) to only be able to consume the features available to him, instead of testing everywhere if the code has the permission to be executed. This looks like REST hypermedia applied to domain modelling, which seems appropriate to increase the affordance of the code we produce and consume.</description>
     </item>
     
     <item>
       <title>Interesting Stuff #1</title>
-      <link>http://iblop.net/posts/interesting-stuff-1/</link>
+      <link>https://www.iblop.net/posts/interesting-stuff-1/</link>
       <pubDate>Wed, 10 Jan 2018 21:08:07 +0100</pubDate>
       
-      <guid>http://iblop.net/posts/interesting-stuff-1/</guid>
+      <guid>https://www.iblop.net/posts/interesting-stuff-1/</guid>
       <description>Hewitt, Meijer and Szyperski: The Actor Model (everything you wanted to know&amp;hellip;) A rare thing, a discussion between Carl Hewitt (the man who designed the actor model), Erik Meijer and Clemens Szyperski about the concepts behind the actor model. Way more valuable than the hordes of Akka tutorials.
 The wikipedia page about the Actor Model is also very knowledgeable on this subject.
 For further reading, the original paper can be found online: A Universal Modular Actor Formalism for Artificial Intelligence.</description>
