@@ -5,14 +5,14 @@ name = "iBlop"
 license = "MIT"
 licenselink = "https://github.com/josselinauguste/josselinauguste.github.io/blob/master/LICENSE.md"
 description = ""
-homepage = "http://iblop.net/"
+homepage = "https://www.iblop.net/"
 tags = []
 features = []
 min_version = "0.32.2"
 
 [author]
   name = "Josselin Auguste"
-  homepage = "http://iblop.net"
+  homepage = "https://www.iblop.net"
 
 # If porting an existing theme
 [original]

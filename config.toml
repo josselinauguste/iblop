@@ -1,4 +1,4 @@
-baseURL = "http://iblop.net/"
+baseURL = "https://www.iblop.net/"
 languageCode = "en-us"
 title = "Josselin Auguste, software gardener"
 copyright = "&copy; now and then | <a href=\"http://gohugo.io\" target=\"_blank\">Hugo</a> ♥"
