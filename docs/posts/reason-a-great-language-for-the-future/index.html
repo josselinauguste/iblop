@@ -84,26 +84,26 @@
 
 <ul>
 <li>Reason integrates seamlessly with React! JSX support is built in the language, and the ReasonReact library is quite good &ndash; I may even say that it has some advantages over ReactJS for the beginner, as it comes with some opiniated choices in the same way Elm does, which is great for productivity and learning curve;</li>
-<li>Reason documentation is quite nice, even if not always as detailed as we may want. But at least it is available, coherent, and is an obvious way to learn the language (and for more advanced topics, <a href="http://2ality.com">Axel Rauschmayer</a> is often a great source of information);</li>
+<li>Reason documentation is quite nice, even if not always as detailed as we may expect. But at least it exists and it is easy to find &ndash; right on the official Reason website &ndash;, making it an obvious way to learn the language (and for more advanced topics, <a href="http://2ality.com">Axel Rauschmayer</a> is often a great source of information);</li>
 <li><code>refmt</code> is great (allowing to concentrate on stuff that matter, not on silly formatting questions);</li>
-<li>Its (static) type system and the module system, which permits abstraction without over-complexity;</li>
-<li>Facebook seems to be highly supportive toward the language, more than Microsoft ever was toward F# for example.</li>
+<li>Its (static) type system, and particularly the module system, are awesome! Not overly complex, but still powerful enough to make the compiler our best friend for bug hunting;</li>
+<li>Facebook seems to be highly supportive towards the language &ndash; more than Microsoft has ever been towards F# for example.</li>
 </ul>
 
 <h2 id="the-bad">The Bad</h2>
 
 <ul>
-<li>Error messages can sometimes be cryptic and hard to read, which does not help to spot the real error and its location (particularly those <code>&lt;UNKNOWN SYNTAX ERROR&gt;</code> messages);</li>
-<li>The syntax is better than the OCaml one, but I am not sure the decision to borrow some JS idiomatic constructions (<code>()</code>, <code>{}</code> and <code>;</code>) was the best one to make, because it adds a lot of unnecessary verbosity. The F# syntax is in my opinion way clearer;</li>
+<li>Error messages can sometimes be cryptic and hard to read, which does not help while trying to understand an error and find its location (particularly those <code>&lt;UNKNOWN SYNTAX ERROR&gt;</code> messages);</li>
+<li>The syntax is better than the OCaml one, but I am not sure that the decision to borrow some JS idiomatic constructions (<code>()</code>, <code>{}</code> and <code>;</code>) was the best one to make, because it adds a lot of unnecessary verbosity. The F# syntax is in my opinion way clearer;</li>
 <li>Some OCaml oldies are still hidden here and there, like the necessity to have different operators depending on the type (<code>++</code> for <em>string</em>, <code>+</code> for <em>int</em> and <code>+.</code> for <em>float</em>), or the non-by-default support of UTF-8 strings;</li>
 <li>The standard library is kinda anemic, but <a href="https://github.com/BuckleScript/bucklescript/issues/2463">its gonna change soon</a>. The OCaml library is still there, but its documentation is not always the easiest to read;</li>
 <li>Editor plugins are still a little bit raw, but they will certainly improve as the community will grow;</li>
 <li>For a reason I ignore, there is no implicit interop with Js types (it is necessary to use <code>Js.Boolean.to_js_boolean</code> and <code>Js.true_</code> to manipulate boolean for example);</li>
 <li>This kind of stuff: <code>ReactDOMRe.domElementToObj(ReactEventRe.Form.target(event))##value</code>, especially for DOM event manipulation, is kind of painful;</li>
-<li>Parsing methods ala <code>int_of_string</code> rely on exceptions, whose handling cannot be enforced by the compiler, instead of an <code>Either</code> type.</li>
+<li>Parsing methods ala <code>int_of_string</code> rely on exceptions, whose handling cannot be enforced by the compiler :/ Using an <code>Either</code> type would allows to write a more robust code thanks to the awesome help provided by the compiler.</li>
 </ul>
 
-<p>As a conclusion, Reason does not yet feel as consistent as Elm or F# may be, but the community is growing more than ever, so I am confident that the ecosystem and the tooling will improve drastically in 2018. In fact, I am even pretty confident that 2018 will be a turning point for Reason popularity, seeing more and more people embracing the language &ndash; thanks to its maturity &ndash;, then talking about it in conferences/meetups in return, and so allowing the community to grow even more.</p>
+<p>As a conclusion, Reason does not yet feel as consistent as Elm or F#, but the community is growing more than ever, so I am confident that the ecosystem and the tooling will improve drastically in 2018. In fact, I am even pretty confident that 2018 will be a turning point for Reason popularity, seeing more and more people embracing the language &ndash; thanks to its maturity &ndash;, and talking about it in public.</p>
 
   </section>
   <footer>
