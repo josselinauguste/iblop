@@ -5,6 +5,9 @@ copyright = "&copy; now and then | <a href=\"http://gohugo.io\" target=\"_blank\
 theme = "iblop"
 publishDir = "docs"
 
+[blackfriday]
+  extensions = ["footnotes"]
+
 [params]
   pageTitle = "Josselin Auguste"
   subtitle = "Real&nbsp;music&nbsp;lover / Software&nbsp;gardener / CEO&nbsp;<a href=\"https://www.twitter.com/syadem\" title=\"Syadem\">@syadem</a>&nbsp;+&nbsp;<a href=\"https://www.twitter.com/MesVaccins\" title=\"MesVaccins.net\">@MesVaccins</a>"
