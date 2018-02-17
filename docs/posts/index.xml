@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; now and then | &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <lastBuildDate>Fri, 09 Feb 2018 22:15:50 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 17 Feb 2018 13:13:22 +0100</lastBuildDate>
     
 	<atom:link href="https://www.iblop.net/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Le petit guide pour découvrir la programmation fonctionnelle</title>
+      <link>https://www.iblop.net/posts/le-petit-guide-pour-decouvrir-la-programmation-fonctionnelle/</link>
+      <pubDate>Sat, 17 Feb 2018 13:13:22 +0100</pubDate>
+      
+      <guid>https://www.iblop.net/posts/le-petit-guide-pour-decouvrir-la-programmation-fonctionnelle/</guid>
+      <description>Découvrir la programmation fonctionnelle par le Texas Hold’em, c’est la bonne petite idée de Christophe Thibaut pour son livre The Little Haskeller.
+Le livre retranscrit une discussion imaginaire entre un novice et un haskeller sur la manière de modéliser une partie de Texas Hold’em. Ce mode narratif rend la lecture extrêmement didactique et la compréhension du sujet très progressive, à l&amp;rsquo;opposé de l&amp;rsquo;image austère que trainent bon nombre de livres sur le sujet.</description>
+    </item>
     
     <item>
       <title>Reason: a great language for the future</title>
