@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; now and then | &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <lastBuildDate>Sat, 17 Feb 2018 13:13:22 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 22 Feb 2018 14:16:43 +0100</lastBuildDate>
     
 	<atom:link href="https://www.iblop.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Interesting Stuff #4</title>
+      <link>https://www.iblop.net/posts/interesting-stuff-4/</link>
+      <pubDate>Thu, 22 Feb 2018 14:16:43 +0100</pubDate>
+      
+      <guid>https://www.iblop.net/posts/interesting-stuff-4/</guid>
+      <description>Haskell at Work - Haskell Programming Screencasts A new haskell screencast serie, composed of (currently) short weekly episodes &amp;ndash; quite interesting and well produced.
+The Death of Microservice Madness in 2018 - dwmkerr Why isn&amp;rsquo;t it a good idea to migrate an architecture to microservices to follow a trend, instead of doing so facing a real technical problem? What are the potential drawbacks?
+Another perspective on this question by Simon Brown: The monolith vs microservices debate is multi-faceted … this doesn’t capture everything, but here’s one way to look at it.</description>
+    </item>
     
     <item>
       <title>Le petit guide pour découvrir la programmation fonctionnelle</title>
