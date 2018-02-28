@@ -1,5 +1,5 @@
 @import url(https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css);
-
+@import url(https://raw.githubusercontent.com/be5invis/Iosevka/master/webfont-csses/iosevka.css);
 body {
   background-color: white;
   color: #555;
@@ -10,7 +10,7 @@ body {
 }
 
 code {
-  font-family: "Fira Code";
+  font-family: "Iosevka", Menlo, monospace;
   font-feature-settings: "calt" 1;
 }
 
@@ -32,7 +32,7 @@ article a:visited {
   text-align: center;
 }
 
-.container{
+.container {
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -42,7 +42,7 @@ article a:visited {
   padding-right: 20px;
 }
 
-.container > header {
+.container>header {
   padding: 20px 0;
   text-align: center;
 }
@@ -136,7 +136,7 @@ nav {
   text-align: right;
 }
 
-.container > footer {
+.container>footer {
   font-size: 0.75em;
   font-weight: 300;
   margin: 16px 0 0 0;
@@ -145,11 +145,12 @@ nav {
 }
 
 /* Post page */
+
 article h1 {
   font-size: 2em;
 }
 
-article section > p {
+article section>p {
   font-size: 1.1em;
 }
 

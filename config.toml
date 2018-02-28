@@ -4,6 +4,8 @@ title = "Josselin Auguste, software gardener"
 copyright = "&copy; now and then | <a href=\"http://gohugo.io\" target=\"_blank\">Hugo</a> ♥"
 theme = "iblop"
 publishDir = "docs"
+pygmentsUseClasses = true
+pygmentsCodefences = true
 
 [blackfriday]
   extensions = ["footnotes"]
