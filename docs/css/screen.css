@@ -1,4 +1,3 @@
-@import url(https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css);
 @import url(https://raw.githubusercontent.com/be5invis/Iosevka/master/webfont-csses/iosevka.css);
 body {
   background-color: white;
@@ -12,6 +11,7 @@ body {
 code {
   font-family: "Iosevka", Menlo, monospace;
   font-feature-settings: "calt" 1;
+  line-height: 1.4em;
 }
 
 a {
