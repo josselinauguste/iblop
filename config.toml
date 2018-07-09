@@ -17,4 +17,5 @@ pygmentsCodefences = true
   author = "Josselin Auguste"
   twitter = "josselinauguste"
   github = "josselinauguste"
+  cv = "https://raw.githubusercontent.com/josselinauguste/cv/master/cv.pdf"
   ga_api_key = "UA-20998618-1"

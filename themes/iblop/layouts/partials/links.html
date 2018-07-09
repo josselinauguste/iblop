@@ -1,21 +1,25 @@
 <ul class="links">
-  {{ with .Site.Params.twitter }}
+  {{ with .Site.Params.cv }}
   <li>
-    <a href="https://twitter.com/{{ . }}" target="_blank">
+    <a href="{{ . }}" target="_blank" title="My Curriculum vitæ">
+      <i class="fa fa-graduation-cap"></i>
+    </a>
+  </li>
+  {{ end }} {{ with .Site.Params.twitter }}
+  <li>
+    <a href="https://twitter.com/{{ . }}" target="_blank" title="My Twitter">
       <i class="fa fa-twitter"></i>
     </a>
   </li>
-  {{ end }}
-  {{ with .Site.Params.github }}
+  {{ end }} {{ with .Site.Params.github }}
   <li>
-    <a href="https://github.com/{{ . }}" target="_blank">
+    <a href="https://github.com/{{ . }}" target="_blank" title="My Github">
       <i class="fa fa-github"></i>
     </a>
   </li>
-  {{ end }}
-  {{ with .RSSLink }} 
+  {{ end }} {{ with .RSSLink }}
   <li>
-    <a href="{{ . }}" target="_blank">
+    <a href="{{ . }}" target="_blank" title="RSS">
       <i class="fa fa-rss"></i>
     </a>
   </li>
