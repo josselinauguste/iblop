@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"> 
+  <title>Le petit guide pour découvrir la programmation fonctionnelle</title>
+  <meta property="og:title" content="Le petit guide pour découvrir la programmation fonctionnelle">
+  <meta name="twitter:title" content="Le petit guide pour découvrir la programmation fonctionnelle">  
+  <meta name="description" content="Real music lover / Software gardener / CEO @syadem &#43; @MesVaccins">
+  <meta property="og:description" content="Real music lover / Software gardener / CEO @syadem &#43; @MesVaccins">
+  <meta name="twitter:description" content="Real music lover / Software gardener / CEO @syadem &#43; @MesVaccins"> 
+  <meta name="author" content="Josselin Auguste">
+  <meta property="og:site_name" content="Josselin Auguste, software gardener">
+  <meta property="og:url" content="https://www.iblop.net/posts/le-petit-guide-pour-decouvrir-la-programmation-fonctionnelle/">
+  <meta name="twitter:card" content="summary"> 
+  <meta name="twitter:site" content="@josselinauguste">
+  <meta name="twitter:creator" content="@josselinauguste">  
+  <meta property="og:type" content="article">  <meta name="generator" content="Hugo 0.43" />
+  <link rel="canonical" href="https://www.iblop.net">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+  <link href="https://www.iblop.net/css/screen.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="https://www.iblop.net/css/syntax.css" media="screen" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      
+      <p class="title"> 
+          <a href="https://www.iblop.net/">
+            Josselin Auguste
+          </a>
+           </p>  
+      <p class="subtitle">
+        Real&nbsp;music&nbsp;lover / Software&nbsp;gardener / CEO&nbsp;<a href="https://www.twitter.com/syadem" title="Syadem">@syadem</a>&nbsp;+&nbsp;<a href="https://www.twitter.com/MesVaccins" title="MesVaccins.net">@MesVaccins</a>
+      </p>
+       <ul class="links">
+  
+  <li>
+    <a href="https://raw.githubusercontent.com/josselinauguste/cv/master/cv.pdf" target="_blank" title="My Curriculum vitæ">
+      <i class="fa fa-graduation-cap"></i>
+    </a>
+  </li>
+   
+  <li>
+    <a href="https://twitter.com/josselinauguste" target="_blank" title="My Twitter">
+      <i class="fa fa-twitter"></i>
+    </a>
+  </li>
+   
+  <li>
+    <a href="https://github.com/josselinauguste" target="_blank" title="My Github">
+      <i class="fa fa-github"></i>
+    </a>
+  </li>
+   
+</ul>
+    </header>
+    <main>
+<article>
+  <header>
+    <h1>
+      <a href="https://www.iblop.net/posts/le-petit-guide-pour-decouvrir-la-programmation-fonctionnelle/">Le petit guide pour découvrir la programmation fonctionnelle</a>
+    </h1>
+    <p class="metadata">
+      Posted on 
+      
+      <time datetime="2018-02-17T13:13:22&#43;01:00">
+        Feb 17, 2018
+      </time>
+      
+    </p>
+  </header>
+  <section> 
+    <p>Découvrir la programmation fonctionnelle par le Texas Hold’em, c’est la bonne petite idée de <a href="https://twitter.com/ToF_">Christophe Thibaut</a> pour son livre <a href="https://leanpub.com/texasholdem-tlh">The Little Haskeller</a>.</p>
+
+<p>Le livre retranscrit une discussion imaginaire entre un novice et un haskeller sur la manière de modéliser une partie de Texas Hold’em. Ce mode narratif rend la lecture extrêmement didactique et la compréhension du sujet très progressive, à l&rsquo;opposé de l&rsquo;image austère que trainent bon nombre de livres sur le sujet<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup>. Cela n&rsquo;est d&rsquo;ailleurs pas sans rappeler le format de <a href="https://fr.wikipedia.org/wiki/Coding_dojo">coding dojo</a> <em>slow kata</em><sup class="footnote-ref" id="fnref:2"><a href="#fn:2">2</a></sup>, partageant les mêmes principes &amp; objectifs, et dont ce livre pourrait être la retranscription d&rsquo;une session.</p>
+
+<p>Du fait de cette approche, le livre est taillé pour un public à mon avis débutant en programmation fonctionnelle. Une personne novice en haskell mais possédant un minimum de pratique en programmation fonctionnelle n’y trouvera que peu d&rsquo;intérêt, hormis peut être une première introduction à la syntaxe haskell, mais le réel intérêt du livre n’est pas là : il est de rentrer dans la tête du développeur pour comprendre son approche face à un problème, et sa manière de le résoudre avec des constructions fonctionnelles, en particulier le <em>pattern matching</em> et les opérations de transformation de listes. Ici point d&rsquo;<em>applicative</em> ou de <em>monad</em> !</p>
+
+<p>Seul point noir au tableau, le livre n’est disponible qu’au format PDF, et sa mise en page n’est malheureusement pas très heureuse, ce qui en rend la lecture difficile autrement que sur un ordinateur. Dommage car le format sous forme de conversation aurait permit une mise en page plus adaptatée aux écrans de taille plus modeste.</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:1"><a href="http://haskellbook.com/index.html">Haskell Programming from first principles</a> par exemple.
+ <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
+<li id="fn:2">Le <em>slow kata</em> est un format de <a href="https://fr.wikipedia.org/wiki/Coding_dojo#Kata">kata</a> dont l&rsquo;objectif est de maximiser la compréhension du sujet traité par l&rsquo;ensemble des personnes participantes à l&rsquo;exercice. L&rsquo;avancement du kata est ainsi conditionné par le fait que la solution proposée est comprise par toutes les personnes présentes, favorisant les expérimentations et les échanges. Si ce format limite la couverture du sujet traité, il favorise néanmoins une compréhension en profondeur. Merci à <a href="https://twitter.com/notarianni">Bernard</a> pour m&rsquo;avoir fait <a href="http://lambdada.org">découvrir ce format</a> !
+ <a class="footnote-return" href="#fnref:2"><sup>[return]</sup></a></li>
+</ol>
+</div>
+
+  </section>
+  <footer>
+    <nav>
+      <span class="pagination-newer">
+        
+        <a href="https://www.iblop.net/posts/interesting-stuff-4/">Newer</a>
+        
+      </span>
+      <span class="pagination-older">
+        
+        <a href="https://www.iblop.net/posts/reason-a-great-language-for-the-future/">Older</a>
+        
+      </span>
+    </nav>
+  </footer>
+</article>
+    </main>
+    
+    <footer>
+    &copy; now and then | <a href="http://gohugo.io" target="_blank">Hugo</a> ♥
+    </footer>
+    
+  </div>
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20998618-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  
+</body>
+</html>
+

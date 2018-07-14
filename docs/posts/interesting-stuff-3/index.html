@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"> 
+  <title>Interesting Stuff #3</title>
+  <meta property="og:title" content="Interesting Stuff #3">
+  <meta name="twitter:title" content="Interesting Stuff #3">  
+  <meta name="description" content="Real music lover / Software gardener / CEO @syadem &#43; @MesVaccins">
+  <meta property="og:description" content="Real music lover / Software gardener / CEO @syadem &#43; @MesVaccins">
+  <meta name="twitter:description" content="Real music lover / Software gardener / CEO @syadem &#43; @MesVaccins"> 
+  <meta name="author" content="Josselin Auguste">
+  <meta property="og:site_name" content="Josselin Auguste, software gardener">
+  <meta property="og:url" content="https://www.iblop.net/posts/interesting-stuff-3/">
+  <meta name="twitter:card" content="summary"> 
+  <meta name="twitter:site" content="@josselinauguste">
+  <meta name="twitter:creator" content="@josselinauguste">  
+  <meta property="og:type" content="article">  <meta name="generator" content="Hugo 0.43" />
+  <link rel="canonical" href="https://www.iblop.net">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+  <link href="https://www.iblop.net/css/screen.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="https://www.iblop.net/css/syntax.css" media="screen" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      
+      <p class="title"> 
+          <a href="https://www.iblop.net/">
+            Josselin Auguste
+          </a>
+           </p>  
+      <p class="subtitle">
+        Real&nbsp;music&nbsp;lover / Software&nbsp;gardener / CEO&nbsp;<a href="https://www.twitter.com/syadem" title="Syadem">@syadem</a>&nbsp;+&nbsp;<a href="https://www.twitter.com/MesVaccins" title="MesVaccins.net">@MesVaccins</a>
+      </p>
+       <ul class="links">
+  
+  <li>
+    <a href="https://raw.githubusercontent.com/josselinauguste/cv/master/cv.pdf" target="_blank" title="My Curriculum vitæ">
+      <i class="fa fa-graduation-cap"></i>
+    </a>
+  </li>
+   
+  <li>
+    <a href="https://twitter.com/josselinauguste" target="_blank" title="My Twitter">
+      <i class="fa fa-twitter"></i>
+    </a>
+  </li>
+   
+  <li>
+    <a href="https://github.com/josselinauguste" target="_blank" title="My Github">
+      <i class="fa fa-github"></i>
+    </a>
+  </li>
+   
+</ul>
+    </header>
+    <main>
+<article>
+  <header>
+    <h1>
+      <a href="https://www.iblop.net/posts/interesting-stuff-3/">Interesting Stuff #3</a>
+    </h1>
+    <p class="metadata">
+      Posted on 
+      
+      <time datetime="2018-01-24T19:02:59&#43;01:00">
+        Jan 24, 2018
+      </time>
+      
+    </p>
+  </header>
+  <section> 
+    
+
+<h2 id="haxl-a-big-hammer-for-concurrency-by-simon-marlow-https-www-youtube-com-watch-v-st6vjkkhy0o"><a href="https://www.youtube.com/watch?v=sT6VJkkhy0o">Haxl: A Big Hammer for Concurrency by Simon Marlow</a></h2>
+
+<p><a href="https://github.com/facebook/Haxl">Haxl</a> is an Haskell library which completely abstracts concurrency, allowing to use it almost transparently when possible, and as easily as by nesting our code in a <code>do</code> block. This gives us concurrency, caching, testability (or at least snapshot testing) and reproductibility for debugging for almost free.</p>
+
+<p>This looks like an interesting paradigm, at least conceptually, because, in the same way memory management was automated 20 years ago to drastically facilitate our daily job, it is still sad that we have to manually manage such a complex topic.</p>
+
+<p>On a side note, Facebook seems to really did the functional way of doing things recently: <a href="http://reasonml.github.io">ReasonML</a>, OCaml (<a href="https://flow.org">Flow</a>, <a href="https://github.com/facebook/pfff/">Pfff</a>), <a href="https://www.youtube.com/watch?v=sl2zo7tzrO8">Haskell</a>. I hope it will help attracting more developers towards functional pratices.</p>
+
+<h2 id="ruby-conf-12-y-not-adventures-in-functional-programming-by-jim-weirich-https-www-youtube-com-watch-v-fitjmjjasus"><a href="https://www.youtube.com/watch?v=FITJMJjASUs">Ruby Conf 12 - Y Not- Adventures in Functional Programming by Jim Weirich</a></h2>
+
+<p>This one is just insane, Jim Weirich exploring the manipulation of higher order functions and functional refactorings in Ruby, on a basic example. I&rsquo;m not sure if it&rsquo;s really an informative talk or just a nice standup comedy, but for sure it is a lot of fun.</p>
+
+<h2 id="jim-weirich-on-decoupling-from-rails-https-www-youtube-com-watch-v-tg5rfesfbm4"><a href="https://www.youtube.com/watch?v=tg5RFeSfBM4">Jim Weirich on Decoupling from Rails</a></h2>
+
+<p>Jim Weirich shows paths to decouple domain code from a Ruby on Rails application. Nothing really new here, basically repositories + services, but it can be enlighting for regular Rails developers who may have forgotten how much Rails tends to leak into our domain code and how much it can be annoying.</p>
+
+<p>Jim chooses to replace the service pattern with what he calls a <code>Runner</code>, which is basically a wrapper around a use case. This pattern is sometimes called <em>functional object</em>, with the <code>run</code> method renamed to <code>call</code> so we can call the object in a more functional way by using the <code>.()</code> ruby syntactic sugar. Concerning the decoupling from the DB, he chooses to use a proxy business object which delegates plumbing back to the <code>ActiveRecord</code> object, and a repository for object creation and retrieve.</p>
+
+<p><a href="https://www.youtube.com/watch?v=rMxurF4oqsc">Full Stack Fest 2015: Blending Functional and OO Programming in Ruby, by Piotr Solnica</a> is a great companion talk to Jim&rsquo;s one, exploring ways to write Ruby code in a little more functional way.</p>
+
+  </section>
+  <footer>
+    <nav>
+      <span class="pagination-newer">
+        
+        <a href="https://www.iblop.net/posts/reason-a-great-language-for-the-future/">Newer</a>
+        
+      </span>
+      <span class="pagination-older">
+        
+        <a href="https://www.iblop.net/posts/interesting-stuff-2/">Older</a>
+        
+      </span>
+    </nav>
+  </footer>
+</article>
+    </main>
+    
+    <footer>
+    &copy; now and then | <a href="http://gohugo.io" target="_blank">Hugo</a> ♥
+    </footer>
+    
+  </div>
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20998618-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  
+</body>
+</html>
+
