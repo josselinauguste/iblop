@@ -12,8 +12,8 @@ pygmentsCodefences = true
 
 [params]
   pageTitle = "Josselin Auguste"
-  subtitle = "Real&nbsp;music&nbsp;lover / Software&nbsp;gardener / CEO&nbsp;<a href=\"https://www.twitter.com/syadem\" title=\"Syadem\">@syadem</a>&nbsp;+&nbsp;<a href=\"https://www.twitter.com/MesVaccins\" title=\"MesVaccins.net\">@MesVaccins</a>"
-  description = "Real music lover / Software gardener / CEO @syadem + @MesVaccins"
+  subtitle = "Real&nbsp;music&nbsp;lover &nbsp; Software&nbsp;gardener"
+  description = "Real music lover & Software gardener"
   author = "Josselin Auguste"
   twitter = "josselinauguste"
   github = "josselinauguste"
