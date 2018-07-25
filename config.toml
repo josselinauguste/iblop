@@ -12,7 +12,7 @@ pygmentsCodefences = true
 
 [params]
   pageTitle = "Josselin Auguste"
-  subtitle = "Real&nbsp;music&nbsp;lover &nbsp; Software&nbsp;gardener"
+  subtitle = "Real&nbsp;music&nbsp;lover &amp; Software&nbsp;gardener"
   description = "Real music lover & Software gardener"
   author = "Josselin Auguste"
   twitter = "josselinauguste"
