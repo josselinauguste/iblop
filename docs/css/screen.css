@@ -154,6 +154,11 @@ article section>p {
   font-size: 1.1em;
 }
 
+article p>img {
+  display: block;
+  margin: auto;
+}
+
 h3 {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.3em;

@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; now and then | &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <lastBuildDate>Sat, 14 Jul 2018 19:58:43 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 27 Jul 2018 20:28:43 +0200</lastBuildDate>
     
 	<atom:link href="https://www.iblop.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Being able to read papers on my e-reader, at last</title>
+      <link>https://www.iblop.net/posts/being-able-to-read-papers-on-my-ereader-at-last/</link>
+      <pubDate>Fri, 27 Jul 2018 20:28:43 +0200</pubDate>
+      
+      <guid>https://www.iblop.net/posts/being-able-to-read-papers-on-my-ereader-at-last/</guid>
+      <description>I truly wonder why papers are still made available as PDF documents on the Internet, rather than HTML pages. And moreover, why are they almost all formatted with a 2-columns layout? It makes them easy to read on a desktop screen, and I must admit quite nice looking, but the (huge) downside is that they are almost unreadable on an e-reader or a mobile phone screen, and that’s a pain considered that most of them are quite long, and demand a sustained focused effort to digest them.</description>
+    </item>
     
     <item>
       <title>Réduire la boucle de rétroaction par le typage</title>

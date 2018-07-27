@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"> 
+  <title>Being able to read papers on my e-reader, at last</title>
+  <meta property="og:title" content="Being able to read papers on my e-reader, at last">
+  <meta name="twitter:title" content="Being able to read papers on my e-reader, at last">  
+  <meta name="description" content="Real music lover &amp; Software gardener">
+  <meta property="og:description" content="Real music lover &amp; Software gardener">
+  <meta name="twitter:description" content="Real music lover &amp; Software gardener"> 
+  <meta name="author" content="Josselin Auguste">
+  <meta property="og:site_name" content="Josselin Auguste, software gardener">
+  <meta property="og:url" content="https://www.iblop.net/posts/being-able-to-read-papers-on-my-ereader-at-last/">
+  <meta name="twitter:card" content="summary"> 
+  <meta name="twitter:site" content="@josselinauguste">
+  <meta name="twitter:creator" content="@josselinauguste">  
+  <meta property="og:type" content="article">  <meta name="generator" content="Hugo 0.43" />
+  <link rel="canonical" href="https://www.iblop.net">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+  <link href="https://www.iblop.net/css/screen.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="https://www.iblop.net/css/syntax.css" media="screen" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      
+      <p class="title"> 
+          <a href="https://www.iblop.net/">
+            Josselin Auguste
+          </a>
+           </p>  
+      <p class="subtitle">
+        Real&nbsp;music&nbsp;lover &amp; Software&nbsp;gardener
+      </p>
+       <ul class="links">
+  
+  <li>
+    <a href="https://raw.githubusercontent.com/josselinauguste/cv/master/cv.pdf" target="_blank" title="My Curriculum vitæ">
+      <i class="fa fa-graduation-cap"></i>
+    </a>
+  </li>
+   
+  <li>
+    <a href="https://twitter.com/josselinauguste" target="_blank" title="My Twitter">
+      <i class="fa fa-twitter"></i>
+    </a>
+  </li>
+   
+  <li>
+    <a href="https://github.com/josselinauguste" target="_blank" title="My Github">
+      <i class="fa fa-github"></i>
+    </a>
+  </li>
+   
+</ul>
+    </header>
+    <main>
+<article>
+  <header>
+    <h1>
+      <a href="https://www.iblop.net/posts/being-able-to-read-papers-on-my-ereader-at-last/">Being able to read papers on my e-reader, at last</a>
+    </h1>
+    <p class="metadata">
+      Posted on 
+      
+      <time datetime="2018-07-27T20:28:43&#43;02:00">
+        Jul 27, 2018
+      </time>
+      
+    </p>
+  </header>
+  <section> 
+    <p>I truly wonder why papers are still made available as PDF documents on the Internet, rather than HTML pages. And moreover, why are they almost all formatted with a 2-columns layout? It makes them easy to read on a desktop screen, and I must admit quite nice looking, but the (huge) downside is that they are almost unreadable on an e-reader or a mobile phone screen, and that’s a pain considered that most of them are quite long, and demand a sustained focused effort to digest them.</p>
+
+<p>But luckily, thanks to <a href="https://github.com/beerendlauwers/haskell-papers-ereader">this awesome repository of haskell papers reformatted to be read on an e-reader</a>, I just discovered the awesome <a href="http://willus.com/k2pdfopt/">k2pdfoptlib</a> utility, which optimizes PDF/DJVU files for mobile e-readers and smartphones.</p>
+
+<p>And I have to admit that it works well!</p>
+
+<p><img src="/being-able-to-read-papers-on-my-ereader-at-last-1.jpg" alt="Build Systems à la Carte optimized for a Kobo Glo" /></p>
+
+<p>I personally use the following command, inspired from the <em>haskell-papers-ereader</em> repository:</p>
+
+<p><code>k2pdfopt Build\ Systems\ à\ la\ Carte.pdf -dev kbg -c -om 0.2</code></p>
+
+<p>It takes a 1-column paper and generates a PDF suitable for a Kobo Glo, with a a 0.2 inch margin around the document.</p>
+
+<p>You can customize the command for your device using the device profiles listed <a href="https://github.com/koreader/libk2pdfopt/blob/master/k2pdfoptlib/devprofile.c#L26">here</a>, and if you want to process a 2-columns document, append <code>-mode 2col</code> to the command line.</p>
+
+<p><a href="http://blog.refu.co/?p=1158">Reading .pdf files comfortably on Kindle</a> show even more options, and a way to enable OCR on the file to get a textual PDF as output.</p>
+
+  </section>
+  <footer>
+    <nav>
+      <span class="pagination-newer">
+        
+      </span>
+      <span class="pagination-older">
+        
+        <a href="https://www.iblop.net/posts/reduire-la-boucle-de-retroaction-par-le-typage/">Older</a>
+        
+      </span>
+    </nav>
+  </footer>
+</article>
+    </main>
+    
+    <footer>
+    &copy; now and then | <a href="http://gohugo.io" target="_blank">Hugo</a> ♥
+    </footer>
+    
+  </div>
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20998618-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  
+</body>
+</html>
+
