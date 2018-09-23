@@ -5,15 +5,15 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"> 
-  <title>Being able to read papers on my e-reader, at last</title>
-  <meta property="og:title" content="Being able to read papers on my e-reader, at last">
-  <meta name="twitter:title" content="Being able to read papers on my e-reader, at last">  
+  <title>The OCaml Mooc week #1</title>
+  <meta property="og:title" content="The OCaml Mooc week #1">
+  <meta name="twitter:title" content="The OCaml Mooc week #1">  
   <meta name="description" content="Real music lover &amp; Software gardener">
   <meta property="og:description" content="Real music lover &amp; Software gardener">
   <meta name="twitter:description" content="Real music lover &amp; Software gardener"> 
   <meta name="author" content="Josselin Auguste">
   <meta property="og:site_name" content="Josselin Auguste, software gardener">
-  <meta property="og:url" content="https://www.iblop.net/posts/being-able-to-read-papers-on-my-ereader-at-last/">
+  <meta property="og:url" content="https://www.iblop.net/posts/the-ocaml-mooc-week-1/">
   <meta name="twitter:card" content="summary"> 
   <meta name="twitter:site" content="@josselinauguste">
   <meta name="twitter:creator" content="@josselinauguste">  
@@ -64,49 +64,40 @@
 <article>
   <header>
     <h1>
-      <a href="https://www.iblop.net/posts/being-able-to-read-papers-on-my-ereader-at-last/">Being able to read papers on my e-reader, at last</a>
+      <a href="https://www.iblop.net/posts/the-ocaml-mooc-week-1/">The OCaml Mooc week #1</a>
     </h1>
     <p class="metadata">
       Posted on 
       
-      <time datetime="2018-07-27T20:28:43&#43;02:00">
-        Jul 27, 2018
+      <time datetime="2018-09-23T10:16:58&#43;02:00">
+        Sep 23, 2018
       </time>
       
     </p>
   </header>
   <section> 
-    <p>I truly wonder why papers are still made available as PDF documents on the Internet, rather than HTML pages. And moreover, why are they almost all formatted with a 2-columns layout? It makes them easy to read on a desktop screen, and I must admit quite nice looking, but the (huge) downside is that they are almost unreadable on an e-reader or a mobile phone screen, and that’s a pain considered that most of them are quite long, and demand a sustained focused effort to digest them.</p>
+    <p>What a great idea from the Inria: to propose a <a href="https://www.fun-mooc.fr/courses/course-v1:parisdiderot+56002+session03/about">Mooc about the not-that-well-known OCaml functional programming language</a>, which may be one of the best options to learn the basics of statically typed functional programming today.</p>
 
-<p>But luckily, thanks to <a href="https://github.com/beerendlauwers/haskell-papers-ereader">this awesome repository of haskell papers reformatted to be read on an e-reader</a>, I just discovered the awesome <a href="http://willus.com/k2pdfopt/">k2pdfoptlib</a> utility, which optimizes PDF/DJVU files for mobile e-readers and smartphones.</p>
+<p>And even if OCaml is not that popular, it gets more and more exposure, as major companies like Microsoft (through F#) and Facebook (Flow is built using OCaml, and <a href="https://reasonml.github.io">Reason</a> is a modern OCaml compiling to Javascript) tends to get inspired by it.</p>
 
-<p>And I have to admit that it works well!</p>
+<p>This first week is a kind of introduction to the introduction, talking about the history of the language and its basic elements: types and how to define a function. So this is a great opportunity to setup a local OCaml development environment:</p>
 
-<p><img src="/being-able-to-read-papers-on-my-ereader-at-last-1.jpg" alt="Build Systems à la Carte optimized for a Kobo Glo" /></p>
+<pre><code>brew install ocaml opam
+</code></pre>
 
-<p>To install <em>k2pdfoptlib</em>, just download it from <a href="http://willus.com/k2pdfopt/download/">willus.com/k2pdfopt/download/</a>, and drop the <code>k2pdfopt</code> binary file somewhere in your path (for example <code>/usr/local/bin</code> or <code>~/.local/bin</code> if it exists).</p>
+<p>OCaml comes with a great REPL called <code>utop</code>, providing auto completion and basic editing support, contrary to the old-school <code>ocaml</code> REPL.</p>
 
-<p>I personally use the following command, inspired from the <em>haskell-papers-ereader</em> repository:</p>
-
-<p><code>k2pdfopt Build\ Systems\ à\ la\ Carte.pdf -dev kbg -c -om 0.2</code></p>
-
-<p>It takes a 1-column paper and generates a PDF suitable for a Kobo Glo, with a a 0.2 inch margin around the document.</p>
-
-<p>You can customize the command for your device using the device profiles listed <a href="https://github.com/koreader/libk2pdfopt/blob/master/k2pdfoptlib/devprofile.c#L26">here</a>, and if you want to process a 2-columns document, append <code>-mode 2col</code> to the command line.</p>
-
-<p><a href="http://blog.refu.co/?p=1158">Reading .pdf files comfortably on Kindle</a> show even more options, and a way to enable OCR on the file to get a textual PDF as output.</p>
+<p>So enjoy, and see you there!</p>
 
   </section>
   <footer>
     <nav>
       <span class="pagination-newer">
         
-        <a href="https://www.iblop.net/posts/the-ocaml-mooc-week-1/">Newer</a>
-        
       </span>
       <span class="pagination-older">
         
-        <a href="https://www.iblop.net/posts/reduire-la-boucle-de-retroaction-par-le-typage/">Older</a>
+        <a href="https://www.iblop.net/posts/being-able-to-read-papers-on-my-ereader-at-last/">Older</a>
         
       </span>
     </nav>

@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; now and then | &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <lastBuildDate>Fri, 27 Jul 2018 20:28:43 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 23 Sep 2018 10:16:58 +0200</lastBuildDate>
     
 	<atom:link href="https://www.iblop.net/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The OCaml Mooc week #1</title>
+      <link>https://www.iblop.net/posts/the-ocaml-mooc-week-1/</link>
+      <pubDate>Sun, 23 Sep 2018 10:16:58 +0200</pubDate>
+      
+      <guid>https://www.iblop.net/posts/the-ocaml-mooc-week-1/</guid>
+      <description>What a great idea from the Inria: to propose a Mooc about the not-that-well-known OCaml functional programming language, which may be one of the best options to learn the basics of statically typed functional programming today.
+And even if OCaml is not that popular, it gets more and more exposure, as major companies like Microsoft (through F#) and Facebook (Flow is built using OCaml, and Reason is a modern OCaml compiling to Javascript) tends to get inspired by it.</description>
+    </item>
     
     <item>
       <title>Being able to read papers on my e-reader, at last</title>

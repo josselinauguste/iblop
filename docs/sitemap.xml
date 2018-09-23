@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.iblop.net/posts/the-ocaml-mooc-week-1/</loc>
+    <lastmod>2018-09-23T10:16:58+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.iblop.net/posts/being-able-to-read-papers-on-my-ereader-at-last/</loc>
     <lastmod>2018-07-27T20:28:43+02:00</lastmod>
   </url>
@@ -54,13 +59,13 @@
   
   <url>
     <loc>https://www.iblop.net/</loc>
-    <lastmod>2018-07-27T20:28:43+02:00</lastmod>
+    <lastmod>2018-09-23T10:16:58+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.iblop.net/posts/</loc>
-    <lastmod>2018-07-27T20:28:43+02:00</lastmod>
+    <lastmod>2018-09-23T10:16:58+02:00</lastmod>
     <priority>0</priority>
   </url>
   
