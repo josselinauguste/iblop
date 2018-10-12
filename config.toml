@@ -1,6 +1,6 @@
 baseURL = "https://www.iblop.net/"
 languageCode = "en-us"
-title = "Josselin Auguste, software gardener"
+title = "Josselin Auguste, Software developer"
 copyright = "&copy; now and then | <a href=\"http://gohugo.io\" target=\"_blank\">Hugo</a> ♥"
 theme = "iblop"
 publishDir = "docs"
@@ -12,8 +12,8 @@ pygmentsCodefences = true
 
 [params]
   pageTitle = "Josselin Auguste"
-  subtitle = "Real&nbsp;music&nbsp;lover &amp; Software&nbsp;gardener"
-  description = "Real music lover & Software gardener"
+  subtitle = "Artisanal&nbsp;Retro-Futurist ⊗ Team-Scale&nbsp;Anarcho-Syndicalist, Real&nbsp;music&nbsp;lover"
+  description = "Artisanal Retro-Futurist ⊗ Team-Scale Anarcho-Syndicalist, Real music lover"
   author = "Josselin Auguste"
   twitter = "josselinauguste"
   github = "josselinauguste"
