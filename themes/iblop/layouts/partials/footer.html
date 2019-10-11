@@ -1,9 +1,10 @@
     </main>
-    {{ with .Site.Copyright | safeHTML }}
     <footer>
-    {{ . }}
+      {{ partial "links" . }}
+      {{ with .Site.Copyright | safeHTML }}
+        {{ . }}
+      {{ end }}
     </footer>
-    {{ end }}
   </div>
   {{ with .Site.Params.ga_api_key }}
   <script>
